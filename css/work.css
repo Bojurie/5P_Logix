@@ -1,0 +1,32 @@
+.work_card {
+  display: flex;
+  padding-top: 50px;
+}
+
+.card {
+  border: none;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .work_card {
+    display: inline;
+  }
+
+  /* .contact_email,
+  .contact_phone {
+    font-size: 20px;
+    letter-spacing: 0.2em; */
+}
+
+.work-heading {
+    text-align: center;
+    /* padding: 90px; */
+    font-size: 90px;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: auto;
+    letter-spacing: 0.0188679em;
+    font-weight: 300;
+    font-style: normal;
+}

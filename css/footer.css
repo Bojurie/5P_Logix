@@ -1,0 +1,20 @@
+/* FOOTER */
+.social_media {
+  text-align: center;
+  height: 150px;
+  margin: auto;
+  color: white;
+}
+
+.social_media-wrapper {
+  padding-top: 70px;
+}
+
+.social_media-wrapper_links {
+  color: white;
+}
+
+.fab:hover {
+  color:rgb(162, 235, 155);
+  
+}

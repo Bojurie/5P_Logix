@@ -1,66 +1,81 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Dosis',sans-serif;
- 
-}
-.navigation {
-    background-color: rgb(170, 240, 205);
-    height: 200px;
-}
-.nav-link {
-    color: white;
-    font-family: "Dosis";
-    font-size: 18px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 2em;
+  font-family: 'Dosis', sans-serif;
+  color: rgb(106, 105, 105);
 }
 
-.logo img {
-  width: 50%;
+.current {
+  background: rgb(232, 191, 115);
+  color:rgb(162, 235, 155);
+  border-radius: 5px;
+  text-align: center;
 }
+.current:hover {
+  color:rgb(162, 235, 155);
+}
+
+.parallax {
+  min-height: 400px;
+  background: transparent;
+}
+
+/* 
+@media screen and (min-width: 48em) {
+
+  .custom-logo-link img {
+    max-width: 700px;
+  }
+} */
+
 
 .carousel-item {
-  height: 500px;
+  height: auto;
 }
 
 .carousel-item img {
-   width: 100%;
-   height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .section-heading {
   font-family: "Dosis";
-  font-size: 90px;
+  font-size: 72px;
   line-height: 1em;
   text-transform: uppercase;
   letter-spacing: 0.0188679em;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
-  /* color: #fff; */
   position: relative;
   z-index: inherit;
   text-align: center;
-  /* margin-top: 40px; */
-  /* padding: 100px 0; */
+  margin: auto;
+  padding: 22px 0;
+}
+
+.main_content {
+  margin: auto;
+  padding: 100px;
 }
 
 .card {
-
+  background-color: transparent;
+  border: none;
 }
 
 .card-content {
   text-align: center;
 }
 
+.card_content-main {
+  margin: auto;
+  width: 100%;
+}
+
 .section-paragraph {
   text-align: center;
   font-family: "Roboto";
-  font-size: 21px;
+  font-size: 17px;
   line-height: 1.6em;
   text-transform: uppercase;
   text-decoration: none;
@@ -79,10 +94,9 @@
   text-align: center;
 }
 
-.section-link a{
+.section-link a {
   background-color: transparent;
-  border: 2px solid rgb(106, 190, 99) !important;
-  /* color: #fff; */
+  border: 2px solid rgb(162, 235, 155) !important;
   font-size: 17px;
   margin: 10px 0px 0px;
   padding: 14px 24.5px;
@@ -90,33 +104,53 @@
   letter-spacing: 3px;
   text-decoration: none;
 }
-
-.pimg1, .pimg2, .pimg3 {
-  position: relative;
-  opacity: 0.70;
-  background-position: center;
+.section-link a:hover{
+  background:rgb(106, 105, 105);
+   /* border: 2px solid rgb(243, 243, 243) !important; */
+   color: white;
 }
 
-.paralax-section {
-  height: 500px;
-  
+.bglink {
+  background:rgb(189, 194, 188);
+  border: 1px solid rgb(162, 235, 155);
+}
+
+.bglink:hover {
+    background:rgb(106, 105, 105);
+    border: 1px solid rgb(162, 235, 155);
+
+}
+
+.parallax {
+  /* background: url('../Images/') no-repeat center; */
+  background-size: cover;
+  background-attachment: fixed;
+  /* height: 500px; */
+}
+
+.parallax1 {
+  /* background: url('../Images/ben-o-bro-wpU4veNGnHg-unsplash.jpg') no-repeat center; */
+  background-size: cover;
+  background-attachment: fixed;
+  /* height: 500px; */
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
 }
 
 .paralax-section__content {
   margin: auto;
 }
 
-.pimg1 {
-  background-image: url('./Images/ben-o-bro-wpU4veNGnHg-unsplash.jpg');
-  min-height: 100%;
-}
 
-.pimg2 {
-  background-image: url('./Images/ben-o-bro-wpU4veNGnHg-unsplash.jpg');
-  min-height: 400px;
-}
 
-.pimg2 {
-  background-image: url('./Images/ben-o-bro-wpU4veNGnHg-unsplash.jpg');
-  min-height: 400px;
+@media only screen and (max-width: 600px) {
+  .section-heading {
+    font-size: 60px;
+    /* padding: 40px; */
+  }
 }

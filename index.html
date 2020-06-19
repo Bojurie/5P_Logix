@@ -15,41 +15,68 @@
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&display=swap" rel="stylesheet">
 
+  <script src="https://kit.fontawesome.com/5ffdb52964.js" crossorigin="anonymous"></script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+  <!-- <link rel="manifest" href="favicon_io/site.webmanifest"> -->
+
   <title>5P Logix</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="parallax.min.js"></script>
 </head>
 <body>
-  <header>
-      <nav class="navbar navbar-expand-lg navigation">
-        <div class="container">
-            <a class="logo" href="/" class="navbar-brand"><img src="/logo/IMG_1733.PNG" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-               <ul class="nav ml-auto">
-                 <li class="nav-item"><a class="nav-link active" href="#">HOME <span class="sr-only"></span></a></li>
-                 <li class="nav-item"><a class="nav-link" href=" #">ABOUT US</a></li>
-                 <li class="nav-item"><a class="nav-link" href="#">WORK</a></li>
-                 <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
-               </ul>
-            </div>
-        </div>
-      </nav>
-  </header>
+  <nav class="navbar sticky-top navbar-expand-lg bg-dark">
+    <div class="container nav_wrapper">  
+      <div class="logo">
+        <img src="/logo/logo.png" alt="">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link current" href="/index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="work.html">WORK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <!-- Carousel slide -->
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-lg-12 col-md-12">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
+                <!-- 1st Carousel image  -->
                 <img src="Images/aaron-huber-oMOx_wV6mLQ-unsplash.jpg" class="d-block w-100" data-interval="3s"
                   alt="First Slide">
               </div>
               <div class="carousel-item">
+                <!-- 2nd Carousel image  -->
                 <img src="Images/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg" class="d-block w-100" alt="Second Slide">
               </div>
               <div class="carousel-item">
+                <!-- 3rd Carousel image  -->
                 <img src="Images/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg" class="d-block w-100" alt="Third Slide">
               </div>
           </div>
@@ -65,91 +92,128 @@
     </div>
   </div>
 
-  <div class="pimg1">
-    <div class="ptext">
-     
-    </div>
-  </div>
-
-  <section class=" section-light">
-     <p class="row section-heading">
-       <span class="col-md-12">
-         Feature Content
-       </span>
-     </p>
-    <div class="row">
-        <div class="card col-md-4 col-sm-12" >
-          <img src="/Images/aaron-huber-oMOx_wV6mLQ-unsplash.jpg" class="card-img-top" alt="...">
-          <div class="card-body card-content">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+  <section>
+    <div class="parallax0" data-parallax="scroll" data-image-src="/Images" style="background: rgba(248, 237, 217, 0.929);">
+      <div class="card_content">
+        <div class="row card_content-main">
+          <span class="col-md-12 section-heading">
+              Feature Content
+            </span>
+            <div class="card col-md-4 col-sm-12">
+              <!-- 1st card image -->
+              <img src="/Images/aaron-huber-oMOx_wV6mLQ-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body card-content">
+                <!-- card title -->
+                <h5 class="card-title">Card title</h5>
+                <!-- card paragraph -->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary bglink">Go somewhere</a>
+              </div>
+            </div>
+            
+            <div class="card col-md-4 col-sm-12">
+               <!-- 2nd card image -->
+              <img src="/Images/francesca-tosolini-o5ctaVlyj3s-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body card-content">
+                <!-- card title -->
+                <h5 class="card-title">Card title</h5>
+                <!-- card paragraph -->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary bglink">Go somewhere</a>
+              </div>
+            </div>
+            
+            <div class="card col-md-4 col-sm-12">
+               <!-- 3rd card image -->
+              <img src="/Images/francesca-tosolini-XcVm8mn7NUM-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body card-content">
+                <!-- card title -->
+                <h5 class="card-title">Card title</h5>
+                <!-- card paragraph -->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary bglink">Go somewhere</a>
+              </div>
+            </div>
         </div>
-
-        <div class="card col-md-4 col-sm-12" >
-          <img src="/Images/francesca-tosolini-o5ctaVlyj3s-unsplash.jpg" class="card-img-top" alt="...">
-          <div class="card-body card-content">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card col-md-4 col-sm-12" >
-          <img src="/Images/francesca-tosolini-XcVm8mn7NUM-unsplash.jpg" class="card-img-top" alt="...">
-          <div class="card-body card-content">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+            
+      </div>
     </div>
   </section>
 
-    <div class="pimg2">
-      <div class="ptext">
-        
+  <section>
+      <div class="parallax" data-parallax="scroll" data-image-src="/Images/ben-o-bro-wpU4veNGnHg-unsplash.jpg">
+          <div class="container">
+            <div class="main_content main_about">
+              <div class="col-md-12 ">
+                  <p class="section-heading ">
+                    <span class="about_heading">
+                      About Us
+                    </span>
+                  </p>
+              </div>
+              <div class="col-md-12 paralax-section__content">
+                  <p class="section-paragraph about_heading">Learn more About Us</p>
+                  <p class="section-link">
+                    <a target="_blan" href="/about.html">Learn About Us →</a>
+                  </p>
+              </div>
+              </div>
+          </div> 
       </div>
-    </div>
-
-    <section class="row paralax-section">
-        <div class="col-md-12 paralax-section__content">
-          <p class="section-heading">
-            <span class="border">
-              About Us
-            </span>
-          </p>
-          <p class="section-paragraph">Learn more About Us</p>
-          <p class="section-link">
-            <a target="_blan" href="/about.html">Learn About Us →</a>
-          </p>
+  </section>
+  
+  <section>
+    <div class="parallax1" data-parallax="scroll" data-image-src="/Images/ben-o-bro-wpU4veNGnHg-unsplash.jpg"
+      style="background: rgba(248, 237, 217, 0.929);" >
+      <div class="container">
+        <div class="main_content">
+            <div class="col-12">
+                <p class="section-heading">
+                  <span>
+                    Work
+                  </span>
+                </p>
+             </div>
+            <div class="col-md-12">
+                <p class="section-paragraph">Photograph of past Work</p>
+                <p class="section-link">
+                  <a target="_blank" href="/work.html">Learn About Us →</a>
+                </p>
+            </div>
         </div>
-    </section>
-
-    <div class="pimg3">
-      <div class="ptext">
-       
       </div>
     </div>
-
-    <section class="row paralax-section">
-      <div class="col-md-12">
-        <p class="section-heading">
-          <span class="border">
-          Work
-          </span>
-        </p>
-        <p class="section-paragraph">Photograph of past Work</p>
-        <p class="section-link">
-          <a target="_blank" href="/work.html">Learn About Us →</a>
-        </p>
-      </div>
-    </section>
-
+  </section>
 
   <footer>
+    <div class="">
+      <div class=" col-lg-12 social_media bg-dark">
+        <div class="social_media-wrapper">
+           <div class="col-md-12 social_media-wrapper_links">
+              <a class="col-3" href="#">
+                <i class="fab fa-instagram-square"></i>
+              </a>
+
+              <a class="col-3" href="#">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              
+              <a class="col-3" href="#">
+                <i class="fab fa-google"></i>
+              </a>
+              <a class="col-3" href="#">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+           </div> 
+           <div class="col-12">
+             <p class="text-align-center">5pLogix@gmail.com | +1 949 935 2995 | irvine , CA, USA</p>
+            </div>
+        </div>
+       
+
+      </div>
+    </div>
 
   </footer>
 
@@ -157,6 +221,7 @@
 
 
   <!-- Optional JavaScript -->
+  <script src="app.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
