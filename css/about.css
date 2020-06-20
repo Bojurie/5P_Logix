@@ -34,9 +34,15 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .about {
+     background-image: url('../Images/about Images/stephan-schmid-TFYj8cPnKxg-unsplash.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+  }
   .about-heading {
-        font-size: 60px;
-        padding: 40px;
+    font-size: 50px;
+    /* padding: 40px; */
   }
   .about_company-info{
     display: inline;
@@ -50,5 +56,9 @@
 
   .about_company-info {
     text-align: center;
+  }
+  .about_content-main {
+
+    padding: 8%;
   }
 }

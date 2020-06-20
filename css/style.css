@@ -103,6 +103,7 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   text-decoration: none;
+  text-align: center;
 }
 .section-link a:hover{
   background:rgb(106, 105, 105);
@@ -130,8 +131,8 @@
 
 .parallax1 {
   /* background: url('../Images/ben-o-bro-wpU4veNGnHg-unsplash.jpg') no-repeat center; */
-  background-size: cover;
-  background-attachment: fixed;
+  /* background-size: cover;
+  background-attachment: fixed; */
   /* height: 500px; */
 }
 
@@ -153,4 +154,15 @@
     font-size: 60px;
     /* padding: 40px; */
   }
+  .section-paragraph {
+    font-size: 12px;
+  }
+  .main_content {
+    padding: 23px;
+  }
+  /* .work {
+      background: url('../Images/ben-o-bro-wpU4veNGnHg-unsplash.jpg');
+      position: relative;
+  } */
+
 }
