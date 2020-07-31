@@ -45,8 +45,8 @@ span {
      background-position: center;
   }
   .about-heading {
-    font-size: 50px;
-    /* padding: 40px; */
+    font-size: 40px;
+    padding: 90px 0;
   }
   .about_company-info{
     display: inline;

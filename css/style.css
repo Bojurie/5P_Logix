@@ -76,6 +76,7 @@
 }
 .video_cards {
   display: flex;
+  width: 100%;
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
