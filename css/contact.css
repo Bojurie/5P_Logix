@@ -7,18 +7,37 @@
   letter-spacing: .6em;
 
 }
+span {
+  border: 1px solid orange;
+  background: #faebd799;
+}
+
+.contact-info {
+   border: 1px solid orange;
+   background: #faebd799;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 
 @media only screen and (max-width: 600px) {
   .about-heading {
-    font-size: 50px;
+    font-size: 40px;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .contact_email,
   .contact_phone {
     font-size: 20px;
     letter-spacing: 0.2em;
   }
+
+  .contact-info {
+    margin: auto;
+  }
   .contact {
-    background-image: url('../Images/Contact Images/caleb-moreno-Iw6JTuybXCg-unsplash.jpg');
+    background-image: url('../Images/Contact Images/house-luxury-villa-swimming-pool-32870.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

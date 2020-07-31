@@ -10,6 +10,10 @@
   font-style: normal;
 }
 
+span {
+  border: 1px solid orange;
+  background: #faebd799;
+}
 
 .about_content-main {
  background-color: #fff;
