@@ -24,8 +24,7 @@ span {
   .about-heading {
     font-size: 40px;
     text-align: center;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 0 0 20px
   }
   .contact_email,
   .contact_phone {
