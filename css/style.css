@@ -210,11 +210,14 @@
 
 @media only screen and (max-width: 600px) {
   .main-work {
-    background: rgba(248, 237, 217, 0.929);
-    opacity: .1;
+    background: rgba(248, 237, 217, 0.227);
+    opacity: 1;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+  }
+  .parallax1 {
+    background: rgba(248, 237, 217, 0.929);
   }
 
   .carousel-inner {
