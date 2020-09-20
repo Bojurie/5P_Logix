@@ -1,0 +1,72 @@
+body{
+  
+  /* font-size: .5rem; */
+}
+
+
+.main-content {
+  padding: 10px 12rem;
+
+
+}
+.about_parallax {
+  background-image: url('/Images/bernard-hermant-KqOLr8OiQLU-unsplash.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+}
+
+.faq-content {
+  padding: 90px auto;
+}
+
+
+.sqs-block {
+  position: relative;
+  height: auto;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  outline: none;
+
+}
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+}
+
+.sqs-block-markdown {
+  background: rgb(255, 255, 255);
+  padding: 20px 5px 35px 5px;
+  margin: 20px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(191, 191, 191, .2);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(191, 191, 191, .2);
+  box-shadow: 0px 0px 6px 0px rgba(191, 191, 191, .2);
+  transition: all ease-in-out 300ms !important;
+  -moz-transition: all ease-in-out 300ms !important;
+  -webkit-transition: all ease-in-out 300ms !important;
+}
+
+.sqs-block-markdown .sqs-block-content {
+  position: relative;
+}
+
+.sqs-block-markdown h2 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 20px 30px 35px 30px;
+  border-bottom: solid 1px #eee;
+}
+
+.sqs-block-markdown p {
+  padding: 10px 30px 10px 30px;
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: .2px;
+}

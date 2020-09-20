@@ -5,6 +5,10 @@
   color: rgb(235, 146, 50);
 }
 
+h1 {
+  font-size: 1.7rem;
+  text-align: center;
+}
 .current {
   background: rgb(232, 191, 115);
   color:rgb(162, 235, 155);
@@ -32,17 +36,13 @@
 .carousel-inner {
   height: 500px;
 }
-/* .carousel-item {
-  height: auto;
-} */
+
 
 .carousel-item img {
   width: 100%;
   height: auto;
 }
-.showcase-sec {
-  /* height: 500px; */
-}
+
 .section-heading {
   font-family: "Dosis";
   font-size: 69px;
@@ -93,7 +93,6 @@
 
 .card_content-main {
   margin: auto;
-  /* margin-top: 66px; */
 }
 
 .section-paragraph {
@@ -225,7 +224,6 @@
   }
   .section-heading {
     font-size: 60px;
-    /* padding: 40px; */
   }
   .section-paragraph {
     font-size: 12px;
